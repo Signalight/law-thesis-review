@@ -1,0 +1,7 @@
+# iet-law-thesis-review bundle patch: mount the skill provider into the host
+# skill registry (its rows are host-plane, so every agent preset's scope chain
+# merges the skills it registers). Later layers can address this row by id.
+- insert:
+    - id: iet-law-thesis-review
+      name: '@signalight/dsh-law-thesis-review'
+

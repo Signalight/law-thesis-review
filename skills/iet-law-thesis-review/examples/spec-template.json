@@ -1,0 +1,13 @@
+{
+  "summary": "论文整体结构较完整，但存在若干表述与引注问题需要修改。请重点核对脚注与正文的对应关系、专有名词规范及表述重复问题。",
+  "author": "（可选：批注/修订作者；缺省自动检测本机 Word/WPS 用户名）",
+  "edits": [
+    {"operation": "replace", "paragraph_index": 165, "old_text": "利用", "new_text": "运用"},
+    {"operation": "delete",  "paragraph_index": 83,  "old_text": "这样的"},
+    {"operation": "insert",  "paragraph_index": 90,  "new_text": "（此处补充一句说明）"}
+  ],
+  "comments": [
+    {"paragraph_index": 83, "anchor_text": "美国", "text": "此处建议更精确，并核对是否有出处。"},
+    {"paragraph_index": 12, "anchor_text": "管辖原则", "text": "这个标题无法涵盖在上一级标题下，请调整标题。"}
+  ]
+}
