@@ -1,6 +1,6 @@
 {
   "name": "@signalight/dsh-law-thesis-review",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "国际经济法论文审查 skill：读取学生 Word 论文，对照自查清单，以 Word 修订+批注输出审查稿。",
   "type": "module",
   "main": "index.js",
@@ -8,8 +8,25 @@
     ".": "./index.js",
     "./package.json": "./package.json"
   },
-  "files": ["skills", "index.js", "cordis.patch.yml", "README.md", "README.zh.md", "LICENSE"],
-  "keywords": ["dsh", "plugin", "skill", "law", "legal", "thesis", "paper-review", "国际经济法", "论文审查"],
+  "files": [
+    "skills",
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "plugin",
+    "skill",
+    "law",
+    "legal",
+    "thesis",
+    "paper-review",
+    "国际经济法",
+    "论文审查"
+  ],
   "author": "signalight",
   "license": "MIT",
   "dsh": {
@@ -18,4 +35,3 @@
     }
   }
 }
-
