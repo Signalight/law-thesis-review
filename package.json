@@ -1,6 +1,6 @@
 {
   "name": "@signalight/dsh-law-thesis-review",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "国际经济法论文审查 skill：读取学生 Word 论文，对照自查清单，以 Word 修订+批注输出审查稿。",
   "type": "module",
   "main": "index.js",

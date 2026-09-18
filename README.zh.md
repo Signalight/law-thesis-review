@@ -46,3 +46,12 @@ spec 示例见 `skills/iet-law-thesis-review/examples/spec-template.json`。
 
 MIT
 
+## 论文层级
+
+技能会判定论文层级并选用对应清单：
+
+- 本科毕业论文 -> references/checklist-undergraduate.md（含格式/编辑要求）
+- 硕士学位论文 -> references/checklist-master.md（含格式/编辑要求）
+- 学术训练 / 学期论文 -> references/checklist-academic-training.md（不提格式要求）
+- 未明确层级 -> references/checklist.md（只取共性要求，不深究格式）
+

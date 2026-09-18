@@ -46,3 +46,12 @@ Spec shape shown in `skills/iet-law-thesis-review/examples/spec-template.json`.
 
 MIT
 
+## Thesis level
+
+The skill detects the paper level and routes to the matching checklist:
+
+- Undergraduate thesis -> references/checklist-undergraduate.md (with format/editing checks)
+- Master's thesis -> references/checklist-master.md (with format/editing checks)
+- Academic training / term paper -> references/checklist-academic-training.md (no format requirements)
+- Level unspecified -> references/checklist.md (general requirements only; no format nitpicks)
+
