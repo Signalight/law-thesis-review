@@ -60,9 +60,26 @@ python scripts/review_docx.py review 输入.docx --spec spec.json --out 输入_�
 
 edits 以修订模式写入；comments 以 Word 批注写入。paragraph_index 取自 extract 输出的 [P####]。
 
-## 检查清单
+## 检查清单（先判定论文层级）
 
-本 skill 使用**打包的自查清单**：references/checklist.md（已合并硕士/本科两类要求，并增补国际经济法常见问题与发散性问题）。如需自定义清单，可将覆盖文件放在本目录 references/ 下（同名覆盖）。
+**先判定论文类型，再选对应清单：**
+
+| 判定 | 使用清单 | 是否检查格式 |
+|---|---|---|
+| 本科毕业论文 | references/checklist-undergraduate.md | 是（含编辑/格式要求） |
+| 硕士学位论文 | references/checklist-master.md | 是（含编辑/格式要求） |
+| 学术训练（学期/课程论文） | references/checklist-academic-training.md | **否**（不提出格式要求） |
+| 无法判定 | references/checklist.md | **否**（只取共性，不深究格式） |
+
+判定顺序：
+1. 提交说明 / 用户明确说明的层级（最优先）。
+2. 文件名、文档元数据或封面字样：含“本科”“毕业论文”→本科；含“硕士”“学位论文”→硕士；含“学术训练”“学期论文”“课程论文”→学术训练。
+3. 都无法判定 → 一般要求（references/checklist.md）。
+
+**注意：**
+- 只有明确为本科 / 硕士时，才检查目录、页码、标题序号层级、参考文献体例等格式项。
+- 学术训练论文篇幅短、体例自由：不要因格式问题打回，重点点评立意、论证、事实与诚信、AI 味。
+- 判定不了时不深究格式，仅在批注提示“若属学位论文需另按学校格式要求核对”。
 
 ## AI 味（避嫌）
 
